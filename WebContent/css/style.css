@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+/*查询学生答题表格样式\查询班级列表表格样式*/
+.providerTable {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-right:none; 
+    border-left:none;
+}
+
+.providerTable tr {
+    height: 50px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.providerTable tr:nth-child(odd) {
+    background: #f6f7f9;
+}
+
+.providerTable tr:hover {
+    background: #e9f9ca;
+}
+
+.firstTr {
+    border: 1px solid #d6dfe6;
+    background: linear-gradient(to bottom, #f3f8fc, #ebf4f9, #e3f1fa, #e0f0fd, #d8e9fd);
+}
+
+.firstTr th {
+    border-right: 2px solid rgba(209, 218, 223, 0.4);
+}
+
+.providerTable td a {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+	text-decoration:none;
+}
+
+
+

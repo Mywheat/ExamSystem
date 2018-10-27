@@ -1,0 +1,235 @@
+@CHARSET "UTF-8";
+*{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.headR{
+float:right;
+margin-right:200px;
+}
+.c{
+
+margin-left:200px;
+margin-right:200px;
+
+}
+.c1{
+text-align:center;
+width:100%;
+}
+.c2{
+ float: left;
+
+}
+ .c3{
+ float:left;
+}
+.btn-wrap{
+
+border: 1px  solid;
+border-top-color:green;
+border-bottom-color:green;
+border-left-color:green;
+border-right-color:green;
+
+}
+.btn:hover {
+    background-color: rgb(80,180,120) !important;
+
+}
+
+#aa:link {color: black } /* 未访问的链接 */
+#aa:visited {color:black } /* 已访问的链接 */
+#aa:hover {color: black} /* 鼠标移动到链接上 */
+#aa:active {color:black} /* 选定的链接 */
+.c3{
+	  width: 100px; 
+	  height: 100px;
+	  background-color:rgb(80,180,120);
+	  border-radius: 50%; 
+	  -moz-border-radius: 50%; 
+	  -webkit-border-radius: 50%;
+	  margin-left:50px;
+	  color:white;
+	  text-align:center;
+      line-height:100px;
+      font-size:18px;
+}
+.c4{
+	  width: 40px; 
+	  height: 40px;
+	  background-color:white;
+	  border-radius: 50%; 
+	  -moz-border-radius: 50%; 
+	  -webkit-border-radius: 50%;
+	  margin-right:50px;
+	  margin-top:50px;
+	  float:right;
+	  color:green;
+	  text-align:center;
+      line-height:40px;
+	  font-size:40px;
+	  border: 2px solid green;
+	 
+}
+ #a1 { text-decoration: none;}
+ .c5{
+ width:30%;}
+ .c5 li{
+  width:100px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+  border: 1px solid green;
+  }
+.c6{
+	  width: 10px; 
+	  height:10px;
+	  background-color:white;
+	  border-radius: 50%; 
+	  -moz-border-radius: 50%; 
+	  -webkit-border-radius: 50%;
+	  margin-top:30px;
+	  float:left;
+	  margin-left:80px;
+	  border: 1px solid black;
+}
+.c7{
+      line-height:70px;
+	  font-size:20px;
+	  margin-left:130px;
+}
+.c8{
+	  margin-left:130px;
+}
+.c9{
+	  margin-left:80px;
+}
+.fileUploadclass{
+    position:absolute; 
+    right: 0pt; 
+    top: 0pt; 
+    font-family: Arial; 
+    font-size: 118px; 
+    margin: 0pt; 
+    padding: 0pt; 
+    cursor: pointer; 
+    opacity:0;                  
+           
+}
+ 
+.clickbutton{
+    position: relative; overflow: hidden; direction: ltr;
+}
+.win {
+            POSITION:absolute; left:55%; top:70%;
+            width:400px; height:250px;
+            margin-left:-300px;margin-top:-200px; border:1px solid green;
+            background-color: white; text-align: left;
+            line-height: 30px; z-Index:3;
+            text-color:black;
+        }
+.input8{
+	width:55px;
+	height:25px;
+	line-height:10px;
+	font-size:14px;
+	text-color:red;
+	background-color:rgb(80,180,120);
+}
+.c10{
+	width:350px;
+	height:30px;
+	background-color:rgb(150,150,150);
+	text-align:center;
+	margin-left:25px;
+	
+}
+
+
+
+
+
+.header{
+	width:100%;
+	height:50px;
+	line-height:50px;	
+}
+.header p{
+	margin-left:70%;
+	float:left; 
+}
+
+.header1{
+	width:100%;
+	height:150px;
+	
+} 
+.header1 p{
+	 font-size:35px;
+	 font-weight:bold;  
+	 float:left;
+	 margin-left:40%;
+}
+.header1 span{
+	 font-size:16px;
+	 float:left;
+	 margin-left:15.2%;
+}
+.w1{
+	margin-top:1%;
+	text-align:left;
+
+	
+}
+.w2{
+	margin-top:3%;
+	margin-left:15%;
+}
+.w2 ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+}
+
+.w2 li{
+	float:left;
+	border-style: solid;
+	border-width:1px;
+	border-color:green;
+}
+
+.header1 a:link,.header1 a:visited{
+	
+	display:block;
+	width:190px;
+	font-weight:bold;
+	color:black;
+	background-color:#FFFFFF;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.header1 a:hover,.header1 a:active{
+	background-color:rgb(80,180,120);
+}
+.box a:link,.box a:visited{
+	text-decoration:none;
+	color:black;
+}
+.box a:hover,.box a:active{
+	color:white;
+}
+.box{
+    width:350px; top:10px; padding:28px;
+    height:500px; border:1px green solid;position:relative;
+    display:none; background-color:grey;margin-left:25%;          /* 默认对话框隐藏 */
+}
+.box.show{display:block;} 
+.box .x{ font-size:18px; text-align:right; display:block;}
+.box input{width:80%; font-size:18px; margin-top:8px;margin-left:19px;}
